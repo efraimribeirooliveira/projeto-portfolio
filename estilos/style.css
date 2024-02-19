@@ -24,7 +24,7 @@ body {
 }
 
 html{
-    padding-left: 50px;
+    padding-left: 69px;
 }
 
 div#logo{
@@ -83,7 +83,7 @@ section.part1 p {
     font-weight: 600;
     text-transform: uppercase;
     color: white;
-    font-size: 4em;
+    font-size: 5.2em;
 }
 
 section.part1 h3 {
@@ -201,3 +201,82 @@ div.sobremim ul li a{
 div.sobremim ul li a:hover{
     color: rgb(195, 195, 195);
 }
+
+section.sec2 h1{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+div.menu2 ul{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+div.menu2 ul li {
+    list-style-type: none;
+    
+}
+
+div.menu2 ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(217, 216, 216);
+}
+
+section.sec2 div.projeto1{
+
+}
+
+section.sec2 div.projeto1 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: var(--cor2);
+    font-weight: 500;
+}
+
+section.sec2 div.projeto1 h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(234, 234, 234);
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+section.sec2 div.projeto1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(158, 158, 158);
+    padding-top: 20px;
+}
+
+div.projeto1 div.quadrado{
+    border: 9px solid var(--cor2);
+    width: 350px;
+    height: 270px;
+}
+
+div.prjt{
+    background: url('../imagens/projeto-ex.png') no-repeat;
+    background-size: cover;
+    
+    width: 370px;
+    height: 280px;
+    border-radius: 7px;
+    transform: translate(22px, -40px);
+
+   
+}
+
+div#prt1{
+    position: absolute;
+    top: 1280px;
+    left: 55%;
+    
+    
+
+}
+
