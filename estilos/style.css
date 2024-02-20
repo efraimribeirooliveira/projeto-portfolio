@@ -253,6 +253,12 @@ section.sec2 div.projeto1 p{
     padding-top: 20px;
 }
 
+div#prt1{
+    position: absolute;
+    top: 1280px;
+    left: 55%;
+}
+
 div.projeto1 div.quadrado{
     border: 9px solid var(--cor2);
     width: 350px;
@@ -267,16 +273,31 @@ div.prjt{
     height: 280px;
     border-radius: 7px;
     transform: translate(22px, -40px);
-
-   
 }
 
-div#prt1{
-    position: absolute;
-    top: 1280px;
-    left: 55%;
-    
-    
+div.projeto2 {
+    margin-top: 50px;
+}
 
+div.projeto2 div.escrita{
+    text-align: right;
+}
+
+div.projeto2 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: var(--cor2);
+}
+
+div.projeto2 div.quadrado{
+        border: 9px solid var(--cor2);
+        width: 350px;
+        height: 270px;
+    
+}
+
+div.projeto2 div.imgprojt{
+     background: url('../imagens/projeto-ex.png') no-repeat;
+        background-size: cover;
 }
 
